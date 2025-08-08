@@ -1,0 +1,176 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ALBUMS>
+    <ALBUM ID="1" ARTIST_ID="1">
+        <NAME>Master Of Pupets</NAME>
+        <RELEASE_YEAR>1986</RELEASE_YEAR>
+        <PRICE>$10.00</PRICE>
+    </ALBUM>
+    <ALBUM ID="2" ARTIST_ID="1">
+        <NAME>Metallica</NAME>
+        <RELEASE_YEAR>1991</RELEASE_YEAR>
+        <PRICE>$12.99</PRICE>
+    </ALBUM>
+    <ALBUM ID="3" ARTIST_ID="2">
+        <NAME>Believe</NAME>
+        <RELEASE_YEAR>2002</RELEASE_YEAR>
+        <PRICE>$8.00</PRICE>
+    </ALBUM>
+    <ALBUM ID="4" ARTIST_ID="2">
+        <NAME>Evolution</NAME>
+        <RELEASE_YEAR>2018</RELEASE_YEAR>
+        <PRICE>$15.00</PRICE>
+    </ALBUM>
+    <ALBUM ID="5" ARTIST_ID="2">
+        <NAME>Immortalized</NAME>
+        <RELEASE_YEAR>2015</RELEASE_YEAR>
+        <PRICE>$16.00</PRICE>
+    </ALBUM>
+    <ALBUM ID="6" ARTIST_ID="2">
+        <NAME>Indestructible</NAME>
+        <RELEASE_YEAR>2008</RELEASE_YEAR>
+        <PRICE>$14.00</PRICE>
+    </ALBUM>
+    <ALBUM ID="7" ARTIST_ID="3">
+        <NAME>Millennium</NAME>
+        <RELEASE_YEAR>1999</RELEASE_YEAR>
+        <PRICE>$9.00</PRICE>
+    </ALBUM>
+    <ALBUM ID="8" ARTIST_ID="4">
+        <NAME>Fear of the Dark</NAME>
+        <RELEASE_YEAR>1992</RELEASE_YEAR>
+        <PRICE>$9.99</PRICE>
+    </ALBUM>
+    <ALBUM ID="9" ARTIST_ID="4">
+        <NAME>Peace of Mind</NAME>
+        <PRICE>$5.00</PRICE>
+    </ALBUM>
+    <ALBUM ID="10" ARTIST_ID="5">
+        <NAME>Sleeping with Ghosts</NAME>
+        <RELEASE_YEAR>2003</RELEASE_YEAR>
+        <PRICE>$7.00</PRICE>
+    </ALBUM>
+    <ALBUM ID="11" ARTIST_ID="6">
+        <NAME>Viva la Vida or Death and all his Friends</NAME>
+        <RELEASE_YEAR>2008</RELEASE_YEAR>
+        <PRICE>$8.99</PRICE>
+    </ALBUM>
+    <ALBUM ID="12" ARTIST_ID="6">
+        <NAME>A Head Full of Dreams</NAME>
+        <RELEASE_YEAR>2015</RELEASE_YEAR>
+        <PRICE>$16.50</PRICE>
+    </ALBUM>
+    <ALBUM ID="13" ARTIST_ID="7">
+        <NAME>Enema of the State</NAME>
+        <RELEASE_YEAR>1999</RELEASE_YEAR>
+        <PRICE>$5.99</PRICE>
+    </ALBUM>
+    <ALBUM ID="14" ARTIST_ID="7">
+        <NAME>Blink-182</NAME>
+        <RELEASE_YEAR>2003</RELEASE_YEAR>
+        <PRICE>$17.00</PRICE>
+    </ALBUM>
+    <ALBUM ID="15" ARTIST_ID="7">
+        <NAME>Nine</NAME>
+        <RELEASE_YEAR>2019</RELEASE_YEAR>
+        <PRICE>$10.00</PRICE>
+    </ALBUM>
+    <ALBUM ID="16" ARTIST_ID="8">
+        <NAME>Smash</NAME>
+        <RELEASE_YEAR>1994</RELEASE_YEAR>
+        <PRICE>$6.00</PRICE>
+    </ALBUM>
+    <ALBUM ID="17" ARTIST_ID="9">
+        <NAME>No Pads, No Helmets...</NAME>
+        <RELEASE_YEAR>2002</RELEASE_YEAR>
+        <PRICE>$18.00</PRICE>
+    </ALBUM>
+    <ALBUM ID="18" ARTIST_ID="10">
+        <NAME>A Hangover You Don't Deserve</NAME>
+        <RELEASE_YEAR>2004</RELEASE_YEAR>
+        <PRICE>$15.00</PRICE>
+    </ALBUM>
+    <ALBUM ID="19" ARTIST_ID="10">
+        <NAME>The Great Burrito Extortion Case</NAME>
+        <RELEASE_YEAR>2006</RELEASE_YEAR>
+        <PRICE>$14.00</PRICE>
+    </ALBUM>
+    <ALBUM ID="20" ARTIST_ID="11">
+        <NAME>Meteora</NAME>
+        <RELEASE_YEAR>2003</RELEASE_YEAR>
+        <PRICE>$8.00</PRICE>
+    </ALBUM>
+    <ALBUM ID="21" ARTIST_ID="11">
+        <NAME>One More Light</NAME>
+        <RELEASE_YEAR>2017</RELEASE_YEAR>
+        <PRICE>$14.99</PRICE>
+    </ALBUM>
+    <ALBUM ID="22" ARTIST_ID="11">
+        <NAME>Hybrid Theory</NAME>
+        <RELEASE_YEAR>2000</RELEASE_YEAR>
+        <PRICE>$13.00</PRICE>
+    </ALBUM>
+    <ALBUM ID="23" ARTIST_ID="12">
+        <NAME>Aerosmith</NAME>
+        <RELEASE_YEAR>1975</RELEASE_YEAR>
+        <PRICE>$10.00</PRICE>
+    </ALBUM>
+    <ALBUM ID="24" ARTIST_ID="13">
+        <NAME>The Slim Shady LP</NAME>
+        <RELEASE_YEAR>1999</RELEASE_YEAR>
+        <PRICE>$7.00</PRICE>
+    </ALBUM>
+    <ALBUM ID="25" ARTIST_ID="13">
+        <NAME>The Eminem Show</NAME>
+        <RELEASE_YEAR>2002</RELEASE_YEAR>
+        <PRICE>$9.99</PRICE>
+    </ALBUM>
+    <ALBUM ID="26" ARTIST_ID="14">
+        <NAME>All Eyez on Me</NAME>
+        <RELEASE_YEAR>1996</RELEASE_YEAR>
+        <PRICE>$7.00</PRICE>
+    </ALBUM>
+    <ALBUM ID="27" ARTIST_ID="14">
+        <NAME>Better Dayz</NAME>
+        <RELEASE_YEAR>2002</RELEASE_YEAR>
+        <PRICE>$6.00</PRICE>
+    </ALBUM>
+    <ALBUM ID="28" ARTIST_ID="15">
+        <NAME>Poziv</NAME>
+        <RELEASE_YEAR>2013</RELEASE_YEAR>
+        <PRICE>$2.00</PRICE>
+    </ALBUM>
+    <ALBUM ID="29" ARTIST_ID="20">
+        <NAME>Be the One</NAME>
+        <RELEASE_YEAR>2016</RELEASE_YEAR>
+        <PRICE>$22.00</PRICE>
+    </ALBUM>
+    <ALBUM ID="30" ARTIST_ID="16">
+        <NAME>Cloud Nine</NAME>
+        <RELEASE_YEAR>2016</RELEASE_YEAR>
+        <PRICE>$11.99</PRICE>
+    </ALBUM>
+    <ALBUM ID="31" ARTIST_ID="17">
+        <NAME>Nothing but the Beat</NAME>
+        <PRICE>$7.00</PRICE>
+    </ALBUM>
+    <ALBUM ID="32" ARTIST_ID="17">
+        <NAME>One love</NAME>
+        <RELEASE_YEAR>2009</RELEASE_YEAR>
+        <PRICE>$12.00</PRICE>
+    </ALBUM>
+    <ALBUM ID="33" ARTIST_ID="18">
+        <NAME>Sugar</NAME>
+        <RELEASE_YEAR>2015</RELEASE_YEAR>
+        <PRICE>$15.00</PRICE>
+    </ALBUM>
+    <ALBUM ID="34" ARTIST_ID="18">
+        <NAME>Prayer</NAME>
+        <RELEASE_YEAR>2014</RELEASE_YEAR>
+        <PRICE>$17.00</PRICE>
+    </ALBUM>
+    <ALBUM ID="35" ARTIST_ID="19">
+        <NAME>Wonderland</NAME>
+        <RELEASE_YEAR>2012</RELEASE_YEAR>
+        <PRICE>$20.00</PRICE>
+    </ALBUM>
+</ALBUMS>

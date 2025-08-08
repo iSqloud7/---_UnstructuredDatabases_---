@@ -1,0 +1,335 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CLIENTS>
+    <CLIENT ID="1">
+        <NAME>Stephen</NAME>
+        <SURNAME>Sims</SURNAME>
+        <ADDRESS>Hollywood St.75</ADDRESS>
+        <EMAIL>stephen.sims@example.com</EMAIL>
+        <PHONE_NUMBER>754-1234</PHONE_NUMBER>
+    </CLIENT>
+
+    <CLIENT ID="2">
+        <BASIC_INFO>
+            <NAME>Barney</NAME>
+            <SURNAME>Stinson</SURNAME>
+            <ADDRESS>Some St.75</ADDRESS>
+        </BASIC_INFO>
+        <EMAIL>barney.stinson@example.com</EMAIL>
+        <PHONE_NUMBER>755-1111</PHONE_NUMBER>
+    </CLIENT>
+
+    <CLIENT ID="3">
+        <BASIC_INFO>
+            <NAME>Walter</NAME>
+            <SURNAME>White</SURNAME>
+            <ADDRESS>Other St.55</ADDRESS>
+        </BASIC_INFO>
+        <EMAIL>walter.white@example.com</EMAIL>
+    </CLIENT>
+
+    <CLIENT ID="4">
+        <NAME>Ned</NAME>
+        <SURNAME>Stark</SURNAME>
+        <ADDRESS>Second St.3</ADDRESS>
+        <EMAIL>ned.stark@starks.com</EMAIL>
+    </CLIENT>
+
+
+    <CLIENT ID="5">
+        <NAME>John</NAME>
+        <SURNAME>Snow</SURNAME>
+        <ADDRESS>Third St.2</ADDRESS>
+        <EMAIL>john.snow@almoststark.com</EMAIL>
+        <PHONE_NUMBER>754-1112</PHONE_NUMBER>
+    </CLIENT>
+
+    <CLIENT ID="6">
+        <BASIC_INFO>
+            <NAME>Ross</NAME>
+            <SURNAME>Geller</SURNAME>
+            <ADDRESS>Fourth St.5</ADDRESS>
+        </BASIC_INFO>
+        <EMAIL>ross.geller@friends.com</EMAIL>
+        <PHONE_NUMBER>755-1113</PHONE_NUMBER>
+    </CLIENT>
+
+    <CLIENT ID="7">
+        <BASIC_INFO>
+            <NAME>Thomas</NAME>
+            <SURNAME>Shelby</SURNAME>
+            <ADDRESS>Gypsy St.2</ADDRESS>
+        </BASIC_INFO>
+        <EMAIL>tommy.shelby@peaky.com</EMAIL>
+        <PHONE_NUMBER>755-2222</PHONE_NUMBER>
+        <PHONE_NUMBER>755-2223</PHONE_NUMBER>
+        <PHONE_NUMBER>755-1111</PHONE_NUMBER>
+    </CLIENT>
+
+    <CLIENT ID="8">
+        <NAME>Robb</NAME>
+        <SURNAME>Stark</SURNAME>
+        <ADDRESS>Unnamed St.2</ADDRESS>
+        <EMAIL>robb-stark@starks.com</EMAIL>
+    </CLIENT>
+
+
+    <CLIENT ID="9">
+        <NAME>Joey</NAME>
+        <SURNAME>Tribbiani</SURNAME>
+        <ADDRESS>Famous St.1</ADDRESS>
+        <EMAIL>joey.tribbiani@friends.com</EMAIL>
+    </CLIENT>
+
+    <CLIENT ID="10">
+        <BASIC_INFO>
+            <NAME>Lucas</NAME>
+            <SURNAME>Scott</SURNAME>
+            <ADDRESS>First St.7</ADDRESS>
+        </BASIC_INFO>
+        <EMAIL>lucas.scott@onetreehill.com</EMAIL>
+        <PHONE_NUMBER>756-1111</PHONE_NUMBER>
+    </CLIENT>
+
+    <CLIENT ID="11">
+        <BASIC_INFO>
+            <NAME>Nathan</NAME>
+            <SURNAME>Scott</SURNAME>
+            <ADDRESS>First St.8</ADDRESS>
+        </BASIC_INFO>
+        <EMAIL>lucas.scott@onetreehill.com</EMAIL>
+        <PHONE_NUMBER>756-2222</PHONE_NUMBER>
+    </CLIENT>
+
+    <CLIENT ID="12">
+        <NAME>Peyton</NAME>
+        <SURNAME>Sawyer</SURNAME>
+        <ADDRESS>First St.7</ADDRESS>
+        <EMAIL>peyton_sawyer@onetreehill.com</EMAIL>
+    </CLIENT>
+
+
+    <CLIENT ID="13">
+        <BASIC_INFO>
+            <NAME>Julian</NAME>
+            <SURNAME>Baker</SURNAME>
+            <ADDRESS>First St.9</ADDRESS>
+        </BASIC_INFO>
+        <EMAIL>julian.baker@onetreehill.com</EMAIL>
+        <PHONE_NUMBER>756-3333</PHONE_NUMBER>
+        <PHONE_NUMBER>756-3334</PHONE_NUMBER>
+        <PHONE_NUMBER>756-3335</PHONE_NUMBER>
+    </CLIENT>
+
+    <CLIENT ID="14">
+        <BASIC_INFO>
+            <NAME>Eric</NAME>
+            <SURNAME>Taylor</SURNAME>
+            <ADDRESS>Eight St. 1</ADDRESS>
+        </BASIC_INFO>
+        <EMAIL>eric.taylor@fnl.com</EMAIL>
+        <PHONE_NUMBER>757-1111</PHONE_NUMBER>
+    </CLIENT>
+
+    <CLIENT ID="15">
+        <NAME>Julie</NAME>
+        <SURNAME>Taylor</SURNAME>
+        <ADDRESS>Eight St. 1</ADDRESS>
+        <EMAIL>julie.taylor@fnl.com</EMAIL>
+    </CLIENT>
+
+
+    <CLIENT ID="16">
+        <NAME>Jason</NAME>
+        <SURNAME>Street</SURNAME>
+        <ADDRESS>Eight St. 2</ADDRESS>
+        <EMAIL>jason-street@fnl.com</EMAIL>
+    </CLIENT>
+
+
+    <CLIENT ID="17">
+        <NAME>Matt</NAME>
+        <SURNAME>Saracen</SURNAME>
+        <EMAIL>matt_saracen@fnl.com</EMAIL>
+    </CLIENT>
+
+
+    <CLIENT ID="18">
+        <NAME>Tim</NAME>
+        <MIDDLE_NAME>Billy</MIDDLE_NAME>
+        <SURNAME>Riggins</SURNAME>
+        <ADDRESS>
+            <STREET>
+                Eight St
+            </STREET>
+            <NUMBER>3</NUMBER>
+        </ADDRESS>
+        <EMAIL>tim_riggins@fnl.com</EMAIL>
+        <PHONE_NUMBER>756-2222</PHONE_NUMBER>
+    </CLIENT>
+
+
+    <CLIENT ID="19">
+        <BASIC_INFO>
+            <NAME>James</NAME>
+            <MIDDLE_NAME>Morgan</MIDDLE_NAME>
+            <SURNAME>McGill</SURNAME>
+            <ADDRESS>Ninth St.1</ADDRESS>
+        </BASIC_INFO>
+        <EMAIL>james_mcgill@bcs.com</EMAIL>
+        <PHONE_NUMBER>756-3333</PHONE_NUMBER>
+    </CLIENT>
+
+
+    <CLIENT ID="20">
+        <BASIC_INFO>
+            <NAME>Kimberly</NAME>
+            <SURNAME>Wexler</SURNAME>
+            <ADDRESS>Ninth St.1</ADDRESS>
+        </BASIC_INFO>
+        <EMAIL>kim_wexler@bcs.com</EMAIL>
+        <PHONE_NUMBER>756-4444</PHONE_NUMBER>
+    </CLIENT>
+
+    <CLIENT ID="21">
+        <NAME>Ryan</NAME>
+        <MIDDLE_NAME>Seth</MIDDLE_NAME>
+        <SURNAME>Atwood</SURNAME>
+        <ADDRESS>Ninth St.2</ADDRESS>
+        <EMAIL>ryan_atwood@toc.com</EMAIL>
+        <PHONE_NUMBER>756-5555</PHONE_NUMBER>
+    </CLIENT>
+
+    <CLIENT ID="22">
+        <BASIC_INFO>
+            <NAME>Seth</NAME>
+            <SURNAME>Cohen</SURNAME>
+            <ADDRESS>Ninth St.2</ADDRESS>
+        </BASIC_INFO>
+        <EMAIL>seth_cohen@toc.com</EMAIL>
+        <PHONE_NUMBER>756-6666</PHONE_NUMBER>
+    </CLIENT>
+
+    <CLIENT ID="23">
+        <BASIC_INFO>
+            <NAME>Marissa</NAME>
+            <MIDDLE_NAME>Nicole</MIDDLE_NAME>
+            <SURNAME>Cooper</SURNAME>
+            <ADDRESS>Ninth St.3</ADDRESS>
+        </BASIC_INFO>
+        <EMAIL>marissa_cooper@toc.com</EMAIL>
+    </CLIENT>
+
+    <CLIENT ID="24">
+        <NAME>Summer</NAME>
+        <SURNAME>Roberts</SURNAME>
+        <ADDRESS>Ninth St.4</ADDRESS>
+        <EMAIL>summer_roberts@toc.com</EMAIL>
+    </CLIENT>
+
+
+    <CLIENT ID="25">
+        <NAME>Sandy</NAME>
+        <SURNAME>Cohen</SURNAME>
+        <ADDRESS>Ninth St. 2</ADDRESS>
+        <EMAIL>sandy_cohen@toc.com</EMAIL>
+        <PHONE_NUMBER>756-7777</PHONE_NUMBER>
+    </CLIENT>
+
+    <CLIENT ID="26">
+        <BASIC_INFO>
+            <NAME>Kirsten</NAME>
+            <MIDDLE_NAME>Trey</MIDDLE_NAME>
+            <SURNAME>Cohen</SURNAME>
+            <ADDRESS>Ninth St. 2</ADDRESS>
+        </BASIC_INFO>
+        <EMAIL>kirsten_cohen@toc.com</EMAIL>
+        <PHONE_NUMBER>756-8888</PHONE_NUMBER>
+    </CLIENT>
+
+    <CLIENT ID="27">
+        <BASIC_INFO>
+            <NAME>Jake</NAME>
+            <SURNAME>Peralta</SURNAME>
+            <ADDRESS>Tenth St.1</ADDRESS>
+        </BASIC_INFO>
+        <EMAIL>jake_peralta@bnn.com</EMAIL>
+        <PHONE_NUMBER>757-1111</PHONE_NUMBER>
+    </CLIENT>
+
+    <CLIENT ID="28">
+        <NAME>Rosa</NAME>
+        <SURNAME>Diaz</SURNAME>
+        <ADDRESS></ADDRESS>
+        <EMAIL>rosa_diaz@bnn.com</EMAIL>
+    </CLIENT>
+
+
+    <CLIENT ID="29">
+        <NAME>Amy</NAME>
+        <SURNAME>Santiago</SURNAME>
+        <ADDRESS>Tenth St.1</ADDRESS>
+        <EMAIL>amy_santiago@bnn.com</EMAIL>
+        <PHONE_NUMBER>757-2222</PHONE_NUMBER>
+    </CLIENT>
+
+    <CLIENT ID="30">
+        <BASIC_INFO>
+            <NAME>Charles</NAME>
+            <SURNAME>Boyke</SURNAME>
+            <ADDRESS>Tenth St.2</ADDRESS>
+        </BASIC_INFO>
+        <EMAIL>charles_boyle@bnn.com</EMAIL>
+        <PHONE_NUMBER>757-3333</PHONE_NUMBER>
+    </CLIENT>
+
+    <CLIENT ID="31">
+        <BASIC_INFO>
+            <NAME>Terry</NAME>
+            <MIDDLE_NAME>Holt</MIDDLE_NAME>
+            <SURNAME>Jeffords</SURNAME>
+            <ADDRESS>Tenth St.3</ADDRESS>
+        </BASIC_INFO>
+        <EMAIL>t.jeffords@bnn.com</EMAIL>
+        <PHONE_NUMBER>757-4444</PHONE_NUMBER>
+    </CLIENT>
+
+    <CLIENT ID="32">
+        <NAME>Daenerys</NAME>
+        <MIDDLE_NAME>Stormborn</MIDDLE_NAME>
+        <SURNAME>Targaryen</SURNAME>
+        <ADDRESS>
+            <STREET>
+                Eleventh St
+            </STREET>
+            <NUMBER>
+                1
+            </NUMBER>
+        </ADDRESS>
+        <EMAIL>daenerys-stormborn@targaryen.com</EMAIL>
+        <PHONE_NUMBER>757-5555</PHONE_NUMBER>
+        <PHONE_NUMBER>757-6666</PHONE_NUMBER>
+        <PHONE_NUMBER>757-7777</PHONE_NUMBER>
+    </CLIENT>
+
+
+    <CLIENT ID="33">
+        <BASIC_INFO>
+            <NAME>Tyrion</NAME>
+            <SURNAME>Lannister</SURNAME>
+            <ADDRESS>Eleventh St.2</ADDRESS>
+        </BASIC_INFO>
+        <EMAIL>the_imp@lannister.com</EMAIL>
+        <PHONE_NUMBER>757-8888</PHONE_NUMBER>
+    </CLIENT>
+
+    <CLIENT ID="34">
+        <BASIC_INFO>
+            <NAME>Jon</NAME>
+            <SURNAME>Arryn</SURNAME>
+            <ADDRESS>Up in the Clouds St. 2</ADDRESS>
+        </BASIC_INFO>
+        <EMAIL>jon-of-the-eyrie@arryn.com</EMAIL>
+        <PHONE_NUMBER></PHONE_NUMBER>
+    </CLIENT>
+
+</CLIENTS>

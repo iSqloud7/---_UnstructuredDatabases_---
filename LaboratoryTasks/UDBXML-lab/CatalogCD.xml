@@ -1,0 +1,319 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<!-- 0 functional, 1-slightly damaged, 2 - damaged-->
+<!-- 0 - free, 1- occupied -->
+
+<CATALOG>
+    <CD ID="1" ALBUM_ID="1">
+        <STATE>functional</STATE>
+        <OCCUPIED>0</OCCUPIED>
+    </CD>
+    <CD ID="2" ALBUM_ID="1">
+        <STATE>0</STATE>
+        <OCCUPIED>1</OCCUPIED>
+    </CD>
+    <CD ID="3" ALBUM_ID="1">
+        <STATE>2</STATE>
+        <OCCUPIED>free</OCCUPIED>
+    </CD>
+    <CD ID="4" ALBUM_ID="2">
+        <STATE>0</STATE>
+        <OCCUPIED>0</OCCUPIED>
+    </CD>
+    <CD ID="5" ALBUM_ID="2">
+        <STATE>0</STATE>
+        <OCCUPIED>0</OCCUPIED>
+    </CD>
+    <CD ID="6" ALBUM_ID="2">
+        <STATE>1</STATE>
+        <OCCUPIED>1</OCCUPIED>
+    </CD>
+    <CD ID="7" ALBUM_ID="2">
+        <STATE>0</STATE>
+        <OCCUPIED>1</OCCUPIED>
+    </CD>
+    <CD ID="8" ALBUM_ID="3">
+        <STATE>0</STATE>
+        <OCCUPIED>0</OCCUPIED>
+    </CD>
+    <CD ID="9" ALBUM_ID="3">
+        <STATE>0</STATE>
+        <OCCUPIED>1</OCCUPIED>
+    </CD>
+    <CD ID="10" ALBUM_ID="4">
+        <STATE>functional</STATE>
+        <OCCUPIED>free</OCCUPIED>
+    </CD>
+    <CD ID="11" ALBUM_ID="4">
+        <STATE>slightly damaged</STATE>
+        <OCCUPIED>occupied</OCCUPIED>
+    </CD>
+    <CD ID="12" ALBUM_ID="4">
+        <STATE>damaged</STATE>
+        <OCCUPIED>free</OCCUPIED>
+    </CD>
+    <CD ID="13" ALBUM_ID="5">
+        <STATE>0</STATE>
+        <OCCUPIED>0</OCCUPIED>
+    </CD>
+    <CD ID="14" ALBUM_ID="5">
+        <STATE>0</STATE>
+        <OCCUPIED>0</OCCUPIED>
+    </CD>
+    <CD ID="15" ALBUM_ID="5">
+        <STATE>0</STATE>
+        <OCCUPIED>0</OCCUPIED>
+    </CD>
+    <CD ID="16" ALBUM_ID="6">
+        <STATE>1</STATE>
+        <OCCUPIED>0</OCCUPIED>
+    </CD>
+    <CD ID="17" ALBUM_ID="6">
+        <STATE>1</STATE>
+        <OCCUPIED>free</OCCUPIED>
+    </CD>
+    <CD ID="18" ALBUM_ID="6">
+        <STATE>functional</STATE>
+        <OCCUPIED>0</OCCUPIED>
+    </CD>
+    <CD ID="19" ALBUM_ID="7">
+        <STATE>2</STATE>
+        <OCCUPIED>0</OCCUPIED>
+    </CD>
+    <CD ID="20" ALBUM_ID="7">
+        <STATE>2</STATE>
+        <OCCUPIED>0</OCCUPIED>
+    </CD>
+    <CD ID="21" ALBUM_ID="7">
+        <STATE>2</STATE>
+        <OCCUPIED>0</OCCUPIED>
+    </CD>
+    <CD ID="22" ALBUM_ID="8">
+        <STATE>0</STATE>
+        <OCCUPIED>1</OCCUPIED>
+    </CD>
+    <CD ID="23" ALBUM_ID="8">
+        <STATE>0</STATE>
+        <OCCUPIED>occupied</OCCUPIED>
+    </CD>
+    <CD ID="24" ALBUM_ID="9">
+        <STATE>0</STATE>
+        <OCCUPIED>1</OCCUPIED>
+    </CD>
+    <CD ID="25" ALBUM_ID="9">
+        <STATE>functional</STATE>
+        <OCCUPIED>1</OCCUPIED>
+    </CD>
+    <CD ID="26" ALBUM_ID="9">
+        <STATE>0</STATE>
+        <OCCUPIED>1</OCCUPIED>
+    </CD>
+    <CD ID="27" ALBUM_ID="9">
+        <STATE>functional</STATE>
+        <OCCUPIED>1</OCCUPIED>
+    </CD>
+    <CD ID="28" ALBUM_ID="10">
+        <STATE>1</STATE>
+        <OCCUPIED>0</OCCUPIED>
+    </CD>
+    <CD ID="29" ALBUM_ID="10">
+        <STATE>1</STATE>
+        <OCCUPIED>1</OCCUPIED>
+    </CD>
+    <CD ID="30" ALBUM_ID="11">
+        <STATE>0</STATE>
+        <OCCUPIED>1</OCCUPIED>
+    </CD>
+    <CD ID="31" ALBUM_ID="11">
+        <STATE>0</STATE>
+        <OCCUPIED>0</OCCUPIED>
+    </CD>
+    <CD ID="32" ALBUM_ID="12">
+        <STATE>0</STATE>
+        <OCCUPIED>1</OCCUPIED>
+    </CD>
+    <CD ID="33" ALBUM_ID="12">
+        <STATE>0</STATE>
+        <OCCUPIED>1</OCCUPIED>
+    </CD>
+    <CD ID="34" ALBUM_ID="12">
+        <STATE>1</STATE>
+        <OCCUPIED>0</OCCUPIED>
+    </CD>
+    <CD ID="35" ALBUM_ID="12">
+        <STATE>1</STATE>
+        <OCCUPIED>1</OCCUPIED>
+    </CD>
+    <CD ID="36" ALBUM_ID="13">
+        <STATE>0</STATE>
+        <OCCUPIED>1</OCCUPIED>
+    </CD>
+    <CD ID="37" ALBUM_ID="13">
+        <STATE>0</STATE>
+        <OCCUPIED>1</OCCUPIED>
+    </CD>
+    <CD ID="38" ALBUM_ID="13">
+        <STATE>0</STATE>
+        <OCCUPIED>1</OCCUPIED>
+    </CD>
+    <CD ID="39" ALBUM_ID="13">
+        <STATE>0</STATE>
+        <OCCUPIED>1</OCCUPIED>
+    </CD>
+    <CD ID="40" ALBUM_ID="14">
+        <STATE>0</STATE>
+        <OCCUPIED>1</OCCUPIED>
+    </CD>
+    <CD ID="41" ALBUM_ID="14">
+        <STATE>0</STATE>
+        <OCCUPIED>0</OCCUPIED>
+    </CD>
+    <CD ID="42" ALBUM_ID="15">
+        <STATE>0</STATE>
+        <OCCUPIED>1</OCCUPIED>
+    </CD>
+    <CD ID="43" ALBUM_ID="16">
+        <STATE>2</STATE>
+        <OCCUPIED>0</OCCUPIED>
+    </CD>
+    <CD ID="44" ALBUM_ID="16">
+        <STATE>2</STATE>
+        <OCCUPIED>0</OCCUPIED>
+    </CD>
+    <CD ID="45" ALBUM_ID="17">
+        <STATE>0</STATE>
+        <OCCUPIED>1</OCCUPIED>
+    </CD>
+    <CD ID="46" ALBUM_ID="17">
+        <STATE>0</STATE>
+        <OCCUPIED>occupied</OCCUPIED>
+    </CD>
+    <CD ID="47" ALBUM_ID="17">
+        <STATE>0</STATE>
+        <OCCUPIED>occupied</OCCUPIED>
+    </CD>
+    <CD ID="48" ALBUM_ID="18">
+        <STATE>slightly damaged</STATE>
+        <OCCUPIED>1</OCCUPIED>
+    </CD>
+    <CD ID="49" ALBUM_ID="18">
+        <STATE>slightly damaged</STATE>
+        <OCCUPIED>occupied</OCCUPIED>
+    </CD>
+    <CD ID="50" ALBUM_ID="19">
+        <STATE>0</STATE>
+        <OCCUPIED>occupied</OCCUPIED>
+    </CD>
+    <CD ID="51" ALBUM_ID="19">
+        <STATE>0</STATE>
+        <OCCUPIED>occupied</OCCUPIED>
+    </CD>
+    <CD ID="52" ALBUM_ID="20">
+        <STATE>2</STATE>
+        <OCCUPIED>0</OCCUPIED>
+    </CD>
+    <CD ID="53" ALBUM_ID="20">
+        <STATE>1</STATE>
+        <OCCUPIED>1</OCCUPIED>
+    </CD>
+    <CD ID="54" ALBUM_ID="20">
+        <STATE>0</STATE>
+        <OCCUPIED>1</OCCUPIED>
+    </CD>
+    <CD ID="55" ALBUM_ID="21">
+        <STATE>0</STATE>
+        <OCCUPIED>1</OCCUPIED>
+    </CD>
+    <CD ID="56" ALBUM_ID="21">
+        <STATE>0</STATE>
+        <OCCUPIED>1</OCCUPIED>
+    </CD>
+    <CD ID="57" ALBUM_ID="22">
+        <STATE>0</STATE>
+        <OCCUPIED>1</OCCUPIED>
+    </CD>
+    <CD ID="58" ALBUM_ID="23">
+        <STATE>0</STATE>
+        <OCCUPIED>occupied</OCCUPIED>
+    </CD>
+    <CD ID="59" ALBUM_ID="23">
+        <STATE>0</STATE>
+        <OCCUPIED>occupied</OCCUPIED>
+    </CD>
+    <CD ID="60" ALBUM_ID="24">
+        <STATE>0</STATE>
+        <OCCUPIED>1</OCCUPIED>
+    </CD>
+    <CD ID="61" ALBUM_ID="24">
+        <STATE>0</STATE>
+        <OCCUPIED>0</OCCUPIED>
+    </CD>
+    <CD ID="62" ALBUM_ID="25">
+        <STATE>0</STATE>
+        <OCCUPIED>0</OCCUPIED>
+    </CD>
+    <CD ID="63" ALBUM_ID="26">
+        <STATE>2</STATE>
+        <OCCUPIED>0</OCCUPIED>
+    </CD>
+    <CD ID="64" ALBUM_ID="27">
+        <STATE>0</STATE>
+        <OCCUPIED>1</OCCUPIED>
+    </CD>
+    <CD ID="65" ALBUM_ID="28">
+        <STATE>0</STATE>
+        <OCCUPIED>0</OCCUPIED>
+    </CD>
+    <CD ID="66" ALBUM_ID="29">
+        <STATE>0</STATE>
+        <OCCUPIED>occupied</OCCUPIED>
+    </CD>
+    <CD ID="67" ALBUM_ID="30">
+        <STATE>0</STATE>
+        <OCCUPIED>0</OCCUPIED>
+    </CD>
+    <CD ID="68" ALBUM_ID="31">
+        <STATE>0</STATE>
+        <OCCUPIED>1</OCCUPIED>
+    </CD>
+    <CD ID="69" ALBUM_ID="32">
+        <STATE>0</STATE>
+        <OCCUPIED>occupied</OCCUPIED>
+    </CD>
+    <CD ID="70" ALBUM_ID="32">
+        <STATE>functional</STATE>
+        <OCCUPIED>0</OCCUPIED>
+    </CD>
+    <CD ID="71" ALBUM_ID="33">
+        <STATE>0</STATE>
+        <OCCUPIED>0</OCCUPIED>
+    </CD>
+    <CD ID="72" ALBUM_ID="33">
+        <STATE>0</STATE>
+        <OCCUPIED>0</OCCUPIED>
+    </CD>
+    <CD ID="73" ALBUM_ID="34">
+        <STATE>0</STATE>
+        <OCCUPIED>0</OCCUPIED>
+    </CD>
+    <CD ID="74" ALBUM_ID="35">
+        <STATE>0</STATE>
+        <OCCUPIED>0</OCCUPIED>
+    </CD>
+    <CD ID="75" ALBUM_ID="30">
+        <STATE>0</STATE>
+        <OCCUPIED>1</OCCUPIED>
+    </CD>
+    <CD ID="76" ALBUM_ID="31">
+        <STATE>2</STATE>
+        <OCCUPIED>0</OCCUPIED>
+    </CD>
+    <CD ID="77" ALBUM_ID="34">
+        <STATE>1</STATE>
+        <OCCUPIED>1</OCCUPIED>
+    </CD>
+    <CD ID="78" ALBUM_ID="35">
+        <STATE>0</STATE>
+        <OCCUPIED>1</OCCUPIED>
+    </CD> 
+</CATALOG>

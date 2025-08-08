@@ -1,0 +1,175 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<SYSTEM>
+    <ARTISTS>
+        <ARTIST ID="1" type="band">
+            <NAME>Metallica</NAME>
+            <COUNTRY>USA</COUNTRY>
+            <GENRE>Metal</GENRE>
+        </ARTIST>
+        <ARTIST ID="2" type="band">
+            <NAME>Disturbed</NAME>
+            <COUNTRY>USA</COUNTRY>
+            <GENRE>Metal</GENRE>
+        </ARTIST>
+        <ARTIST ID="3" type="pop_group">
+            <NAME>The Backstreet Boys</NAME>
+            <COUNTRY>USA</COUNTRY>
+            <GENRE>Pop</GENRE>
+        </ARTIST>
+        <ARTIST ID="16" type="dj">
+            <YEAR_STARTED_PERFORMING>2009</YEAR_STARTED_PERFORMING>
+            <NET_WORTH>25,000,000</NET_WORTH>
+            <YEAR_OF_BIRTH>1991</YEAR_OF_BIRTH>
+        </ARTIST>
+        <ARTIST ID="17" type="dj">
+            <YEAR_STARTED_PERFORMING>1980</YEAR_STARTED_PERFORMING>
+            <NET_WORTH>75,000,000</NET_WORTH>
+            <YEAR_OF_BIRTH>1967</YEAR_OF_BIRTH>
+        </ARTIST>
+        <ARTIST ID="18" type="dj">
+            <YEAR_STARTED_PERFORMING>2013</YEAR_STARTED_PERFORMING>
+            <YEAR_OF_BIRTH>1987</YEAR_OF_BIRTH>
+        </ARTIST>
+        <ARTIST ID="13" type="singer">
+            <YEAR_STARTED_PERFORMING>1988</YEAR_STARTED_PERFORMING>
+            <YEAR_OF_BIRTH>1972</YEAR_OF_BIRTH>
+        </ARTIST>
+        <ARTIST ID="14" type="singer">
+            <YEAR_STARTED_PERFORMING>1987</YEAR_STARTED_PERFORMING>
+            <YEAR_OF_BIRTH>1971</YEAR_OF_BIRTH>
+        </ARTIST>
+        <ARTIST ID="15" type="singer">
+            <YEAR_STARTED_PERFORMING>1988</YEAR_STARTED_PERFORMING>
+        </ARTIST>
+    </ARTISTS>
+    
+    <GROUPS>
+        <GROUP ID="1">
+            <YEAR_FORMED>1981</YEAR_FORMED>
+            <NUMBER_OF_MEMBERS>9</NUMBER_OF_MEMBERS>
+        </GROUP>
+        <GROUP ID="2">
+            <YEAR_FORMED>1994</YEAR_FORMED>
+            <NUMBER_OF_MEMBERS>6</NUMBER_OF_MEMBERS>
+        </GROUP>
+        <GROUP ID="3">
+            <YEAR_FORMED>1993</YEAR_FORMED>
+            <NUMBER_OF_MEMBERS>10</NUMBER_OF_MEMBERS>
+        </GROUP>
+    </GROUPS>
+    
+    <ALBUMS>
+        <ALBUM ID="1" ARTIST_ID="1">
+            <NAME>Master Of Pupets</NAME>
+            <RELEASE_YEAR>1986</RELEASE_YEAR>
+            <PRICE>$10.00</PRICE>
+        </ALBUM>
+        <ALBUM ID="2" ARTIST_ID="1">
+            <NAME>Metallica</NAME>
+            <RELEASE_YEAR>1991</RELEASE_YEAR>
+            <PRICE>$12.99</PRICE>
+        </ALBUM>
+        <ALBUM ID="3" ARTIST_ID="2">
+            <NAME>Believe</NAME>
+            <RELEASE_YEAR>2002</RELEASE_YEAR>
+            <PRICE>$8.00</PRICE>
+        </ALBUM>
+        <ALBUM ID="4" ARTIST_ID="2">
+            <NAME>Evolution</NAME>
+            <RELEASE_YEAR>2018</RELEASE_YEAR>
+            <PRICE>$15.00</PRICE>
+        </ALBUM>
+        <ALBUM ID="5" ARTIST_ID="2">
+            <NAME>Immortalized</NAME>
+            <RELEASE_YEAR>2015</RELEASE_YEAR>
+            <PRICE>$16.00</PRICE>
+        </ALBUM>
+        <ALBUM ID="6" ARTIST_ID="2">
+            <NAME>Indestructible</NAME>
+            <RELEASE_YEAR>2008</RELEASE_YEAR>
+            <PRICE>$14.00</PRICE>
+        </ALBUM>
+    </ALBUMS>
+    
+    <CATALOG>
+        <CD ID="1" ALBUM_ID="1">
+            <STATE>functional</STATE>
+            <OCCUPIED>0</OCCUPIED>
+        </CD>
+        <CD ID="2" ALBUM_ID="1">
+            <STATE>0</STATE>
+            <OCCUPIED>1</OCCUPIED>
+        </CD>
+        <CD ID="3" ALBUM_ID="1">
+            <STATE>2</STATE>
+            <OCCUPIED>free</OCCUPIED>
+        </CD>
+        <CD ID="4" ALBUM_ID="2">
+            <STATE>0</STATE>
+            <OCCUPIED>0</OCCUPIED>
+        </CD>
+        <CD ID="5" ALBUM_ID="2">
+            <STATE>0</STATE>
+            <OCCUPIED>0</OCCUPIED>
+        </CD>
+    </CATALOG>
+    
+    <CLIENTS>
+        <CLIENT ID="1">
+            <NAME>Stephen</NAME>
+            <SURNAME>Sims</SURNAME>
+            <ADDRESS>Hollywood St.75</ADDRESS>
+            <EMAIL>stephen.sims@example.com</EMAIL>
+            <PHONE_NUMBER>754-1234</PHONE_NUMBER>
+        </CLIENT>
+        <CLIENT ID="2">
+            <BASIC_INFO>
+                <NAME>Barney</NAME>
+                <SURNAME>Stinson</SURNAME>
+                <ADDRESS>Some St.75</ADDRESS>
+            </BASIC_INFO>
+            <EMAIL>barney.stinson@example.com</EMAIL>
+            <PHONE_NUMBER>755-1111</PHONE_NUMBER>
+        </CLIENT>
+        <CLIENT ID="3">
+            <BASIC_INFO>
+                <NAME>Walter</NAME>
+                <SURNAME>White</SURNAME>
+                <ADDRESS>Other St.55</ADDRESS>
+            </BASIC_INFO>
+            <EMAIL>walter.white@example.com</EMAIL>
+        </CLIENT>
+        <CLIENT ID="4">
+            <NAME>Ned</NAME>
+            <SURNAME>Stark</SURNAME>
+            <ADDRESS>Second St.3</ADDRESS>
+            <EMAIL>ned.stark@starks.com</EMAIL>
+        </CLIENT>
+        <CLIENT ID="5">
+            <NAME>John</NAME>
+            <SURNAME>Snow</SURNAME>
+            <ADDRESS>Third St.2</ADDRESS>
+            <EMAIL>john.snow@almoststark.com</EMAIL>
+            <PHONE_NUMBER>754-1112</PHONE_NUMBER>
+        </CLIENT>
+    </CLIENTS>
+    
+    <RENTS>
+        <RENT ID="1" CLIENT_ID="24" CD_ID="1">
+            <FROM_DATE>2020-10-01</FROM_DATE>
+            <RETURN_STATE>functional</RETURN_STATE>
+            <RETURN_DATE>2020-10-20</RETURN_DATE>
+        </RENT>
+        <RENT ID="2" CLIENT_ID="1" CD_ID="2">
+            <FROM_DATE>2020-01-10</FROM_DATE>
+            <RETURN_STATE>0</RETURN_STATE>
+            <RETURN_DATE>2020-01-21</RETURN_DATE>
+        </RENT>
+        <RENT ID="3" CLIENT_ID="16" CD_ID="3">
+            <FROM_DATE>2020-01-10</FROM_DATE>
+            <RETURN_STATE>0</RETURN_STATE>
+            <RETURN_DATE>2020-01-25</RETURN_DATE>
+        </RENT>
+    </RENTS>
+</SYSTEM>

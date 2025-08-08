@@ -1,0 +1,116 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ARTISTS>
+    <ARTIST ID="1">
+        <NAME>Metallica</NAME>
+        <COUNTRY>USA</COUNTRY>
+        <GENRE>Metal</GENRE>
+    </ARTIST>
+    <ARTIST ID="2">
+        <NAME>Disturbed</NAME>
+        <COUNTRY>USA</COUNTRY>
+        <GENRE>Metal</GENRE>
+    </ARTIST>
+    <ARTIST ID="3">
+        <NAME>The Backstreet Boys</NAME>
+        <COUNTRY>USA</COUNTRY>
+        <GENRE>Pop</GENRE>
+    </ARTIST>
+    <ARTIST ID="4">
+        <NAME>Iron Maiden</NAME>
+        <COUNTRY>UK</COUNTRY>
+        <GENRE>Metal</GENRE>
+    </ARTIST>
+    <ARTIST ID="5">
+        <NAME>Placebo</NAME>
+        <COUNTRY>UK</COUNTRY>
+        <GENRE>Alternative Rock</GENRE>
+    </ARTIST>
+    <ARTIST ID="6">
+        <NAME>Coldplay</NAME>
+        <COUNTRY>UK</COUNTRY>
+        <GENRE>Pop</GENRE>
+        <GENRE>Alternative Rock</GENRE>
+    </ARTIST>
+    <ARTIST ID="7">
+        <NAME>Blink 182</NAME>
+        <COUNTRY>USA</COUNTRY>
+        <GENRE>Rock</GENRE>
+        <GENRE>Pop Punk</GENRE>
+        <GENRE>Punk Rock</GENRE>
+    </ARTIST>
+    <ARTIST ID="8">
+        <NAME>The Offspring</NAME>
+        <COUNTRY>USA</COUNTRY>
+        <GENRE>Pop Punk</GENRE>
+        <GENRE>Punk Rock</GENRE>
+    </ARTIST>
+    <ARTIST ID="9">
+        <NAME>Simple Plan</NAME>
+        <COUNTRY>Canada</COUNTRY>
+        <GENRE>Pop Punk</GENRE>
+        <GENRE>Punk Rock</GENRE>
+        <GENRE>Power Pop</GENRE>
+    </ARTIST>
+    <ARTIST ID="10">
+        <NAME>Bowling For Soup</NAME>
+        <COUNTRY>USA</COUNTRY>
+        <GENRE>Pop Punk</GENRE>
+        <GENRE>Punk Rock</GENRE>
+    </ARTIST>
+    <ARTIST ID="11">
+        <NAME>Linkin Park</NAME>
+        <COUNTRY>USA</COUNTRY>
+        <GENRE>Alternative Rock</GENRE>
+        <GENRE>Alternative Metal</GENRE>
+        <GENRE>Rap rock</GENRE>
+    </ARTIST>
+    <ARTIST ID="12">
+        <NAME>Aerosmith</NAME>
+        <COUNTRY>USA</COUNTRY>
+        <GENRE>Hard Rock</GENRE>
+    </ARTIST>
+    
+    <ARTIST ID="13">
+        <NAME>Eminem</NAME>
+        <COUNTRY>USA</COUNTRY>
+        <GENRE>Hip Hop</GENRE>
+    </ARTIST>
+    <ARTIST ID="14">
+        <NAME>2Pac</NAME>
+        <COUNTRY>USA</COUNTRY>
+        <GENRE>Hip Hop</GENRE>
+    </ARTIST>
+    <ARTIST ID="15">
+        <NAME>Ceca Raznatovic</NAME>
+        <COUNTRY>Serbia</COUNTRY>
+        <GENRE>Turbo-folk</GENRE>
+    </ARTIST>
+    <ARTIST ID="20">
+        <NAME>Dua Lipa</NAME>
+        <COUNTRY>UK</COUNTRY>
+        <GENRE>Pop</GENRE>
+    </ARTIST>
+    <ARTIST ID="16">
+        <NAME>Kygo</NAME>
+        <COUNTRY>Norway</COUNTRY>
+        <GENRE>Deep House</GENRE>
+        <GENRE>Progressive House</GENRE>
+    </ARTIST>
+    <ARTIST ID="17">
+        <NAME>David Guetta</NAME>
+        <COUNTRY>France</COUNTRY>
+        <GENRE>Deep House</GENRE>
+        <GENRE>Progressive House</GENRE>
+        <GENRE>Electronic</GENRE>
+    </ARTIST>
+    <ARTIST ID="18">
+        <NAME>Robin Schulz</NAME>
+        <COUNTRY>France</COUNTRY>
+        <GENRE>Deep House</GENRE>
+    </ARTIST>
+    <ARTIST ID="19">
+        <NAME>Steve Aoki</NAME>
+        <COUNTRY>USA</COUNTRY>
+        <GENRE>Electronic</GENRE>
+    </ARTIST>
+</ARTISTS>

@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project>
+    <meta>
+        <filters directoryPatterns="" filePatterns="\QNBNP-LaboratoryExercise.xpr\E" positiveFilePatterns="" showHiddenFiles="false"/>
+        <options/>
+    </meta>
+    <projectTree name="NBNP-LaboratoryExercise.xpr">
+        <folder path="."/>
+        <file name="Albums.xml"/>
+        <file name="Artists.xml"/>
+        <file name="CatalogCD.xml"/>
+        <file name="Clients.xml"/>
+        <file name="DJ.xml"/>
+        <file name="Groups.xml"/>
+        <file name="Rent.xml"/>
+        <file name="Singers.xml"/>
+        <file name="System.xml"/>
+        <file name="ZADACHA-1-(A).xsd"/>
+        <file name="ZADACHA-1-(B).xquery"/>
+    </projectTree>
+</project>

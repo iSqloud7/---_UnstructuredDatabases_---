@@ -1,0 +1,185 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<xs:schema xmlns:xs="http://www.w3.org/2001/XMLSchema"
+    elementFormDefault="qualified" attributeFormDefault="unqualified">
+    <xs:element name="SYSTEM">
+        <xs:complexType>
+            <xs:sequence>
+                <xs:element name="ARTISTS">
+                    <xs:complexType>
+                        <xs:sequence>
+                            <xs:element name="ARTIST" maxOccurs="unbounded">
+                                <xs:complexType>
+                                    <xs:sequence>
+                                        <xs:choice minOccurs="0" maxOccurs="1">
+                                            <xs:sequence>
+                                                <xs:element name="NAME" type="xs:string"/>
+                                                <xs:element name="COUNTRY" type="xs:string"/>
+                                                <xs:element name="GENRE" type="xs:string"/>
+                                            </xs:sequence>
+                                        </xs:choice>
+                                        <xs:element name="YEAR_STARTED_PERFORMING" type="xs:gYear" minOccurs="0"/>
+                                        <xs:element name="NET_WORTH" type="xs:string" minOccurs="0"/>
+                                        <xs:element name="YEAR_OF_BIRTH" type="xs:gYear" minOccurs="0"/>
+                                    </xs:sequence>
+                                    <xs:attribute name="ID" type="xs:positiveInteger" use="required"/>
+                                    <xs:attribute name="type" use="required">
+                                        <xs:simpleType>
+                                            <xs:restriction base="xs:string">
+                                                <xs:enumeration value="band"/>
+                                                <xs:enumeration value="pop_group"/>
+                                                <xs:enumeration value="dj"/>
+                                                <xs:enumeration value="singer"/>
+                                            </xs:restriction>
+                                        </xs:simpleType>
+                                    </xs:attribute>
+                                </xs:complexType>
+                            </xs:element>
+                        </xs:sequence>
+                    </xs:complexType>
+                </xs:element>
+                
+                <xs:element name="GROUPS">
+                    <xs:complexType>
+                        <xs:sequence>
+                            <xs:element name="GROUP" maxOccurs="unbounded">
+                                <xs:complexType>
+                                    <xs:sequence>
+                                        <xs:element name="YEAR_FORMED" type="xs:gYear"/>
+                                        <xs:element name="NUMBER_OF_MEMBERS" type="xs:positiveInteger"/>
+                                    </xs:sequence>
+                                    <xs:attribute name="ID" type="xs:positiveInteger" use="required"/>
+                                </xs:complexType>
+                            </xs:element>
+                        </xs:sequence>
+                    </xs:complexType>
+                </xs:element>
+                
+                <xs:element name="ALBUMS">
+                    <xs:complexType>
+                        <xs:sequence>
+                            <xs:element name="ALBUM" maxOccurs="unbounded">
+                                <xs:complexType>
+                                    <xs:sequence>
+                                        <xs:element name="NAME" type="xs:string"/>
+                                        <xs:element name="RELEASE_YEAR" type="xs:gYear"/>
+                                        <xs:element name="PRICE" type="xs:string"/>
+                                    </xs:sequence>
+                                    <xs:attribute name="ID" type="xs:positiveInteger" use="required"/>
+                                    <xs:attribute name="ARTIST_ID" type="xs:positiveInteger" use="required"/>
+                                </xs:complexType>
+                            </xs:element>
+                        </xs:sequence>
+                    </xs:complexType>
+                </xs:element>
+                
+                <xs:element name="CATALOG">
+                    <xs:complexType>
+                        <xs:sequence>
+                            <xs:element name="CD" maxOccurs="unbounded">
+                                <xs:complexType>
+                                    <xs:sequence>
+                                        <xs:element name="STATE" type="CDStateType"/>
+                                        <xs:element name="OCCUPIED" type="CDStateType"/>
+                                    </xs:sequence>
+                                    <xs:attribute name="ID" type="xs:positiveInteger" use="required"/>
+                                    <xs:attribute name="ALBUM_ID" type="xs:positiveInteger" use="required"/>
+                                </xs:complexType>
+                            </xs:element>
+                        </xs:sequence>
+                    </xs:complexType>
+                </xs:element>
+                
+                <xs:element name="CLIENTS">
+                    <xs:complexType>
+                        <xs:sequence>
+                            <xs:element name="CLIENT" maxOccurs="unbounded">
+                                <xs:complexType>
+                                    <xs:choice>
+                                        <xs:sequence>
+                                            <xs:element name="NAME" type="xs:string"/>
+                                            <xs:element name="SURNAME" type="xs:string"/>
+                                            <xs:element name="ADDRESS" type="AddressType" minOccurs="0"/>
+                                        </xs:sequence>
+                                        <xs:element name="BASIC_INFO">
+                                            <xs:complexType>
+                                                <xs:sequence>
+                                                    <xs:element name="NAME" type="xs:string"/>
+                                                    <xs:element name="SURNAME" type="xs:string"/>
+                                                    <xs:element name="ADDRESS" type="AddressType" minOccurs="0"/>
+                                                </xs:sequence>
+                                            </xs:complexType>
+                                        </xs:element>
+                                    </xs:choice>
+                                    <xs:sequence>
+                                        <xs:element name="EMAIL" type="EmailType"/>
+                                        <xs:element name="PHONE_NUMBER" type="PhoneNumberType" minOccurs="0"/>
+                                    </xs:sequence>
+                                    <xs:attribute name="ID" type="xs:positiveInteger" use="required"/>
+                                </xs:complexType>
+                            </xs:element>
+                        </xs:sequence>
+                    </xs:complexType>
+                </xs:element>
+                
+                <xs:element name="RENTS">
+                    <xs:complexType>
+                        <xs:sequence>
+                            <xs:element name="RENT" maxOccurs="unbounded">
+                                <xs:complexType>
+                                    <xs:sequence>
+                                        <xs:element name="FROM_DATE" type="xs:date"/>
+                                        <xs:element name="RETURN_STATE" type="CDStateType"/>
+                                        <xs:element name="RETURN_DATE" type="xs:date"/>
+                                    </xs:sequence>
+                                    <xs:attribute name="ID" type="xs:positiveInteger" use="required"/>
+                                    <xs:attribute name="CLIENT_ID" type="xs:positiveInteger" use="required"/>
+                                    <xs:attribute name="CD_ID" type="xs:positiveInteger" use="required"/>
+                                </xs:complexType>
+                            </xs:element>
+                        </xs:sequence>
+                    </xs:complexType>
+                </xs:element>
+            </xs:sequence>
+        </xs:complexType>
+    </xs:element>
+    
+    <xs:simpleType name="CDStateType">
+        <xs:restriction base="xs:string">
+            <xs:enumeration value="0"/>
+            <xs:enumeration value="1"/>
+            <xs:enumeration value="2"/>
+            <xs:enumeration value="functional"/>
+            <xs:enumeration value="slightly damaged"/>
+            <xs:enumeration value="damaged"/>
+            <xs:enumeration value="free"/>
+        </xs:restriction>
+    </xs:simpleType>
+    
+    <xs:simpleType name="EmailType">
+        <xs:restriction base="xs:string">
+            <xs:pattern value="[a-zA-Z0-9._%+-]+@[a-zA-Z0-9.-]+\.[a-zA-Z]{2,}"/>
+        </xs:restriction>
+    </xs:simpleType>
+    
+    <xs:simpleType name="PhoneNumberType">
+        <xs:restriction base="xs:string">
+            <xs:pattern value="75[0-9]-[1-9]{4}"/>
+        </xs:restriction>
+    </xs:simpleType>
+    
+    <xs:simpleType name="AddressType">
+        <xs:union memberTypes="FullAddressType SplitAddressType"/>
+    </xs:simpleType>
+    
+    <xs:simpleType name="FullAddressType">
+        <xs:restriction base="xs:string">
+            <xs:pattern value="[a-zA-Z ]+ St\.[0-9]{1,2}"/>
+        </xs:restriction>
+    </xs:simpleType>
+    
+    <xs:simpleType name="SplitAddressType">
+        <xs:restriction base="xs:string">
+            <xs:pattern value=".*"/>
+        </xs:restriction>
+    </xs:simpleType>
+</xs:schema>
